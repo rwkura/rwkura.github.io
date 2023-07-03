@@ -16,7 +16,9 @@ layout: archive
       {% endif %}
   
       {% tablerow pair in row %}
+      {% if row["Date"] >= site.date %}
         {{ pair[1] }}
+        {% endif %}
       {% endtablerow %}
     {% endfor %}
   </table>
