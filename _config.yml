@@ -277,6 +277,12 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  supporters:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   # _posts
