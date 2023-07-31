@@ -1,6 +1,6 @@
 ---
 title: "Nort"
-excerpt: "Nort Lorem Ipsum"
+excerpt: "A full crafted non alcoholic beer, golden in colour with a fruity aroma and crisp, clean finish."
 header:
   image: /assets/images/Nort.png
   teaser: assets/images/Nort.png
@@ -16,3 +16,5 @@ header:
 #     image_path: assets/images/Nort.png
 #     alt: "Nort Beer Logo"
 ---
+
+Nort page content goes here
