@@ -215,7 +215,7 @@
   }
 
   .archive__item-excerpt {
-    display: none;
+    // display: none; #Show text in small size
 
     @include breakpoint($medium) {
       display: block;
