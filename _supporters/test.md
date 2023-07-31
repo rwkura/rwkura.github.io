@@ -2,8 +2,8 @@
 title: "Test"
 excerpt: "Test Lorem Ipsum"
 header:
-  image: /assets/images/Logo_de_Enron.svg
-  teaser: assets/images/Logo_de_Enron.svg
+  image: /assets/images/ENRON1.gif
+  teaser: assets/images/ENRON1.gif
 # sidebar:
 #   - title: "Role"
 #     image: http://placehold.it/350x250
