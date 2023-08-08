@@ -1,7 +1,7 @@
 ---
-title: Supporters
+title: Friends of SHR
 layout: collection
-permalink: /supporters/
-collection: supporters
+permalink: /friends/
+collection: friends
 entries_layout: grid
 ---
