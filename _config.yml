@@ -280,7 +280,7 @@ compress_html:
 
 # Collections
 collections:
-  supporters:
+  friends:
     output: true
     permalink: /:collection/:path/
 
@@ -300,7 +300,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: supporters
+      type: friends
     values:
       layout: single
       author_profile: false
