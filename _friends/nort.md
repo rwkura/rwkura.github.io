@@ -17,4 +17,4 @@ header:
 #     alt: "Nort Beer Logo"
 ---
 
-Nort page content goes here
+A full crafted non alcoholic beer, golden in colour with a fruity aroma and crisp, clean finish.
