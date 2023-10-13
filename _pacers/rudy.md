@@ -2,8 +2,8 @@
 title: "Rudy"
 excerpt: "Long Course - 4:30-6:00/km"
 header:
-  # image: /assets/images/loz.jpeg
-  # teaser: assets/images/loz.jpeg
+  image: /assets/images/rudy.jpg
+  teaser: assets/images/rudy.jpg
 
 ---
 
