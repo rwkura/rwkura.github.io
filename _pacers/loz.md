@@ -1,6 +1,6 @@
 ---
 title: "Loz"
-excerpt: "Long Course | Pace: 5:00"
+excerpt: "Long Course - 5:00/km"
 header:
   image: /assets/images/loz.jpeg
   teaser: assets/images/loz.jpeg

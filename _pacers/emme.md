@@ -1,6 +1,6 @@
 ---
-title: "Short Course | Emme"
-excerpt: "Pace: 4:30"
+title: "Emme"
+excerpt: "Short Course - 4:30/km"
 header:
   image: /assets/images/emme.jpg
   teaser: assets/images/emme.jpg

@@ -1,6 +1,6 @@
 ---
 title: "John"
-excerpt: "Long Course | Pace: 5:00"
+excerpt: "Long Course - 5:00/km"
 header:
   # image: /assets/images/fraser.jpg
   # teaser: assets/images/fraser.jpg
