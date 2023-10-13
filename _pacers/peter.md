@@ -1,6 +1,6 @@
 ---
 title: "Peter"
-excerpt: "Pace: 4:30"
+excerpt: "Long Course | Pace: 4:30"
 header:
   image: /assets/images/peter.jpeg
   teaser: assets/images/peter.jpeg

@@ -1,6 +1,6 @@
 ---
 title: "Adam"
-excerpt: "Pace: 5:00 & 5:30"
+excerpt: "Long Course | Pace: 5:00 & 5:30"
 header:
   image: /assets/images/adam.jpg
   teaser: assets/images/adam.jpg

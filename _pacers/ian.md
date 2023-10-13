@@ -1,20 +1,10 @@
 ---
 title: "Ian"
-excerpt: "Pace: 5:00 & 5:30"
+excerpt: "Long Course | Pace: 5:00 & 5:30"
 header:
   image: /assets/images/ian.jpeg
   teaser: assets/images/ian.jpeg
-# sidebar:
-#   - title: "Role"
-#     image: http://placehold.it/350x250
-#     image_alt: "logo"
-#     text: "Designer, Front-End Developer"
-#   - title: "Responsibilities"
-#     text: "Reuters try PR stupid commenters should isn't a business model"
-# gallery:
-#   - url: /assets/images/Nort.png
-#     image_path: assets/images/Nort.png
-#     alt: "Nort Beer Logo"
+
 ---
 
 Meet Ian

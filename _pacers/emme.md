@@ -1,5 +1,5 @@
 ---
-title: "Emme"
+title: "Short Course | Emme"
 excerpt: "Pace: 4:30"
 header:
   image: /assets/images/emme.jpg
