@@ -6,8 +6,13 @@ main:
   #   url: /pacers/
   # - title: "Friends of SHR"
   #   url: /friends/
-  - title: "FB Group"
+  - title: "Pacers"
+    url: /pacers/
+  - title: "Friends"
+    url: /friends/
+  - title: "FB"
     url: https://www.facebook.com/groups/sydneyharbourrunners/
+
   
   # - title: "Sample Posts"
   #   url: /year-archive/
