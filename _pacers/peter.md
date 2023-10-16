@@ -7,11 +7,7 @@ header:
 
 ---
 
-Meet Peter
-
-Pace: 4:30, 4:40
-
-Distance preference: Long course (10-13km)
+Long Course - 4:30/km
 
 Favourite SHR course: Harbour Bridge
 

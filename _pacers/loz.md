@@ -7,7 +7,7 @@ header:
 
 ---
 
-Meet Loz!
+Long Course - 5:00/km
 
 Loz started running with SHR early this year in 2023 and soon after became a pacer for the 5 minute long course! 
 

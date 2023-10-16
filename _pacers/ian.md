@@ -7,7 +7,7 @@ header:
 
 ---
 
-Meet Ian
+Long Course - 5:00-5:30/km
 
 Ian’s running journey started like most of people, at parkrun. He started running further and signed up for Ultra Trail Australia - 50. Knowing he needed to train smarter and more consistently, he attended his first SHR in 2019. 
 

@@ -4,22 +4,11 @@ excerpt: "Long Course - 5:00-5:30/km"
 header:
   image: /assets/images/adam.jpg
   teaser: assets/images/adam.jpg
-# sidebar:
-#   - title: "Role"
-#     image: http://placehold.it/350x250
-#     image_alt: "logo"
-#     text: "Designer, Front-End Developer"
-#   - title: "Responsibilities"
-#     text: "Reuters try PR stupid commenters should isn't a business model"
-# gallery:
-#   - url: /assets/images/Nort.png
-#     image_path: assets/images/Nort.png
-#     alt: "Nort Beer Logo"
 ---
 
 Meet Adam
 
-Pace: 5:00; 5:30
+Long Course - 5:00-5:30/km
 
 Distance Preference: Long Course (10-15km).
 

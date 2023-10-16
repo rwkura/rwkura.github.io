@@ -7,9 +7,7 @@ header:
 
 ---
 
-Meet Ray
-
-Distance Preference: Short Course (7-9km)
+Short Course - 6:00/km
 
 Favourite SHR Course: Anything over the Harbour Bridge!
 

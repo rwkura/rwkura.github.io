@@ -7,6 +7,4 @@ header:
 
 ---
 
-Meet Rudy
-
-Rudy likes pacing the 4:30/km group and will get into physical altercations with others if he isn't able to pace that group.
+Long Course - 4:30-6:00/km

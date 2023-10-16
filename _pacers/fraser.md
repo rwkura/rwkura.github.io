@@ -7,4 +7,4 @@ header:
 
 ---
 
-Meet Fraser
+Long Course - 5:30/km

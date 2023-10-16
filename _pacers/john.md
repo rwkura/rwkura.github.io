@@ -7,3 +7,4 @@ header:
 
 ---
 
+Long Course - 5:00/km

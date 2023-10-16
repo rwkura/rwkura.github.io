@@ -7,4 +7,4 @@ header:
 
 ---
 
-Meet Matt
+Short Course - 6:00/km

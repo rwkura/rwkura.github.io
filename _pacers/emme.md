@@ -7,7 +7,7 @@ header:
 
 ---
 
-Meet Emme
+Short Course - 4:30/km
 
 Emme properly started running (aka downloaded Strava) during the lockdown in 2020. Being from the UK, running conditions are never as reliable as Sydney, so she has experienced running in snow and showers. 
 
