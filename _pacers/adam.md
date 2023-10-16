@@ -6,8 +6,6 @@ header:
   teaser: assets/images/adam.jpg
 ---
 
-Meet Adam
-
 Long Course - 5:00-5:30/km
 
 Distance Preference: Long Course (10-15km).
