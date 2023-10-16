@@ -281,7 +281,7 @@ compress_html:
 # Collections
 collections:
   pacers:
-    output: false
+    output: true
     permalink: /:collection/:path/
   friends:
     output: true
