@@ -2,8 +2,8 @@
 title: "John"
 excerpt: "Long Course - 5:00/km"
 header:
-  image: /assets/images/John1.jpg
-  teaser: assets/images/John1.jpg
+  image: /assets/images/John1.jpeg
+  teaser: assets/images/John1.jpeg
 
 ---
 
