@@ -2,8 +2,8 @@
 title: "LSKD"
 excerpt: ""
 header:
-  image: /assets/images/lskd-tp.png
-  teaser: assets/images/lskd-tp.png
+  image: /assets/images/lskd2.jpg
+  teaser: assets/images/lskd2.jpg
 ---
 
 LSKD is an Australian-owned and operated brand that prides itself in producing high-quality functional sportswear with a street aesthetic. Ever since our formation in 2007, we’ve never been content settling for the norm; we’re constantly evolving and challenging the status quo, inspired by the restless few who influence style, shape the future and chase the vibe. 
