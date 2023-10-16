@@ -6,4 +6,10 @@ header:
   teaser: assets/images/asics-tp.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui urna, maximus sit amet pellentesque consectetur, malesuada ut neque. Aenean quis diam vulputate, vulputate augue ac, facilisis orci. Donec risus dui, maximus at aliquet eget, cursus vel lorem. Sed vitae auctor libero. Nunc finibus vestibulum est, sit amet consectetur orci facilisis ut. Mauris mollis leo eget sem dictum, non pellentesque tellus ullamcorper. Curabitur elementum felis ut tristique ullamcorper. Vestibulum lobortis nunc ac est facilisis fringilla. Proin accumsan luctus ante, ac rhoncus quam dapibus at. Aenean ac sagittis urna, ac scelerisque orci. Pellentesque volutpat consectetur euismod. Cras in ex sed diam vestibulum gravida quis non leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam egestas urna vitae magna fermentum fermentum.
+The story of ASICS began with a simple belief: a run is more than a workout or a competition. Sports are more than a game, and they have the potential to improve your mental health.
+
+“Sound Mind, Sound Body™” is the belief that people get happier when they push themselves. The phrase is ASICS’ guiding philosophy.
+
+ASICS is an acronym for the Latin expression “Anima Sana In Corpore Sano” by ancient Roman satirist Juvenal. This means "A Sound Mind in a Sound Body."
+
+[https://www.asics.com/au](https://www.asics.com/au)

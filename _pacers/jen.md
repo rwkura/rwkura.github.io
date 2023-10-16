@@ -7,4 +7,3 @@ header:
 
 ---
 
-Meet Jen

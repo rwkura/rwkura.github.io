@@ -6,4 +6,12 @@ header:
   teaser: assets/images/lskd-tp.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui urna, maximus sit amet pellentesque consectetur, malesuada ut neque. Aenean quis diam vulputate, vulputate augue ac, facilisis orci. Donec risus dui, maximus at aliquet eget, cursus vel lorem. Sed vitae auctor libero. Nunc finibus vestibulum est, sit amet consectetur orci facilisis ut. Mauris mollis leo eget sem dictum, non pellentesque tellus ullamcorper. Curabitur elementum felis ut tristique ullamcorper. Vestibulum lobortis nunc ac est facilisis fringilla. Proin accumsan luctus ante, ac rhoncus quam dapibus at. Aenean ac sagittis urna, ac scelerisque orci. Pellentesque volutpat consectetur euismod. Cras in ex sed diam vestibulum gravida quis non leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam egestas urna vitae magna fermentum fermentum.
+LSKD is an Australian-owned and operated brand that prides itself in producing high-quality functional sportswear with a street aesthetic. Ever since our formation in 2007, we’ve never been content settling for the norm; we’re constantly evolving and challenging the status quo, inspired by the restless few who influence style, shape the future and chase the vibe. 
+
+We strongly value the community we’ve created that live their daily lives within our 3 pillars of sport, fitness and adventure.
+
+Our dedicated team lives and breathes the same sport and adventure-based lifestyle that we promote.  Our Mission is to inspire people to be 1% better every day by developing and delivering quality sportswear and streetwear products that resonate with our experience-driven community.
+
+[https://www.lskd.co/](https://www.lskd.co/)
+
+_Ask our friendly Run Leader team about our exclusive SHR discount! Available both in-store and online!_
