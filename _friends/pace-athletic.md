@@ -10,5 +10,5 @@ Established in 2013, Pace are proud to celebrate a decade of passion, dedication
 
 [https://www.paceathletic.com/](https://www.paceathletic.com/)
 
-Ask our friendly Run Leader team about our exclusive SHR discount!	
+Ask our friendly Run Leader team about our exclusive SHR discount! (Available in store and online)	
 
