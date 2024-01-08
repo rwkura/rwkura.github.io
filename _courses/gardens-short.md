@@ -2,13 +2,11 @@
 title: "Gardens - Short"
 excerpt: " "
 header:
-  image: /assets/images/courses/gardens-short.png
-  teaser: assets/images/courses/gardens-short.png
+  # image: /assets/images/courses/gardens-short.png
+  # teaser: assets/images/courses/gardens-short.png
 ---
 
-<p>Distance: 9km</p>
+<div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3179251167495992934" data-full-width="true" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
 
-<ul>
-<li><a href="https://www.strava.com/routes/3179251167495992934">Strava Route</a></li>
-<li><a href="\assets\gpx_files\gardens-short.gpx">GPX File</a></li>
-</ul>
+
+<a href="\assets\gpx_files\gardens-short.gpx">GPX File</a>

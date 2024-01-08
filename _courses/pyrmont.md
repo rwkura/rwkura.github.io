@@ -2,13 +2,9 @@
 title: "Pyrmont"
 excerpt: " "
 header:
-  image: /assets/images/courses/pyrmont.png
-  teaser: assets/images/courses/pyrmont.png
+  # image: /assets/images/courses/pyrmont.png
+  # teaser: assets/images/courses/pyrmont.png
 ---
+<div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3179238949444551498" data-full-width="true" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
 
-<p>Distance: 8km</p>
-
-<ul>
-<li><a href="https://www.strava.com/routes/3179238949444551498">Strava Route</a></li>
-<li><a href="\assets\gpx_files\pyrmont.gpx">GPX File</a></li>
-</ul>
+<a href="\assets\gpx_files\pyrmont.gpx">GPX File</a>

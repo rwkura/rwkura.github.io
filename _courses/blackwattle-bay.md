@@ -2,13 +2,10 @@
 title: "Blackwattle Bay"
 excerpt: " "
 header:
-  image: /assets/images/courses/blackwattle-bay.png
-  teaser: assets/images/courses/blackwattle-bay.png
+  # image: /assets/images/courses/blackwattle-bay.png
+  # teaser: assets/images/courses/blackwattle-bay.png
 ---
 
-<p>Distance: 13.5km</p>
+<div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3179241070536972902" data-full-width="true" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
 
-<ul>
-<li><a href="https://www.strava.com/routes/3179241070536972902">Strava Route</a></li>
-<li><a href="\assets\gpx_files\blackwattle-bay.gpx">GPX File</a></li>
-</ul>
+<a href="\assets\gpx_files\blackwattle-bay.gpx">GPX File</a>
