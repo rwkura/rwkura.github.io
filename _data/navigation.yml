@@ -2,8 +2,8 @@
 main:
   - title: "Schedule"
     url: /schedule/
-  # - title: "Our Pacers"
-  #   url: /pacers/
+  - title: "Courses"
+    url: /courses/
   # - title: "Friends of SHR"
   #   url: /friends/
   - title: "Pacers"

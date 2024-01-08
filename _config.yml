@@ -286,6 +286,9 @@ collections:
   friends:
     output: true
     permalink: /:collection/:path/
+  courses:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -312,6 +315,13 @@ defaults:
   - scope:
       path: ""
       type: pacers
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  - scope:
+      path: ""
+      type: courses
     values:
       layout: single
       author_profile: false
