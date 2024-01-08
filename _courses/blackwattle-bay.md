@@ -6,7 +6,7 @@ header:
   teaser: assets/images/courses/blackwattle-bay.png
 ---
 
-<p>Distance: 13.7km</p>
+<p>Distance: 13.5km</p>
 
 <ul>
 <li><a href="https://www.strava.com/routes/3179241070536972902">Strava Route</a></li>
