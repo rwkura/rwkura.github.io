@@ -1,49 +1,54 @@
 ﻿Date,Status,Short Course,Long Course
-24 Dec 2024	,<span style='color: red'>Taking a break</span>,N/A,N/A
-31 Dec 2024	,<span style='color: red'>Taking a break</span>,N/A,N/A
-07 Jan 2025	,We are running!,TBC,TBC
-14 Jan 2025	,We are running!,TBC,TBC
-21 Jan 2025	,We are running!,TBC,TBC
-28 Jan 2025	,We are running!,TBC,TBC
-04 Feb 2025	,We are running!,TBC,TBC
-11 Feb 2025	,We are running!,TBC,TBC
-18 Feb 2025	,We are running!,TBC,TBC
-25 Feb 2025	,We are running!,TBC,TBC
-04 Mar 2025	,We are running!,TBC,TBC
-11 Mar 2025	,We are running!,TBC,TBC
-18 Mar 2025	,We are running!,TBC,TBC
-25 Mar 2025	,We are running!,TBC,TBC
-01 Apr 2025	,We are running!,TBC,TBC
-08 Apr 2025	,We are running!,TBC,TBC
-15 Apr 2025	,We are running!,TBC,TBC
-22 Apr 2025	,We are running!,TBC,TBC
-29 Apr 2025	,We are running!,TBC,TBC
-06 May 2025	,We are running!,TBC,TBC
-13 May 2025	,We are running!,TBC,TBC
-20 May 2025	,We are running!,TBC,TBC
-27 May 2025	,We are running!,TBC,TBC
-03 Jun 2025	,We are running!,TBC,TBC
-10 Jun 2025	,We are running!,TBC,TBC
-17 Jun 2025	,We are running!,TBC,TBC
-24 Jun 2025	,We are running!,TBC,TBC
-01 Jul 2025	,We are running!,TBC,TBC
-08 Jul 2025	,We are running!,TBC,TBC
-15 Jul 2025	,We are running!,TBC,TBC
-22 Jul 2025	,We are running!,TBC,TBC
-29 Jul 2025	,We are running!,TBC,TBC
-05 Aug 2025	,We are running!,TBC,TBC
-12 Aug 2025	,We are running!,TBC,TBC
-19 Aug 2025	,We are running!,TBC,TBC
-26 Aug 2025	,We are running!,TBC,TBC
-02 Sep 2025	,We are running!,TBC,TBC
-09 Sep 2025	,We are running!,TBC,TBC
-16 Sep 2025	,We are running!,TBC,TBC
-23 Sep 2025	,We are running!,TBC,TBC
-30 Sep 2025	,We are running!,TBC,TBC
-07 Oct 2025	,We are running!,TBC,TBC
-14 Oct 2025	,We are running!,TBC,TBC
-21 Oct 2025	,We are running!,TBC,TBC
-28 Oct 2025	,We are running!,TBC,TBC
-04 Nov 2025	,We are running!,TBC,TBC
-11 Nov 2025	,We are running!,TBC,TBC
-18 Nov 2025	,We are running!,TBC,TBC
+7 Jan 2025,We are running - Short course only,<a href='/courses/pyrmont/'>Pyrmont</a>,N/A
+14 Jan 2025,We are running!,<a href='/courses/gardens-short/'>Gardens Short</a>,<a href='/courses/gardens-long/'>Gardens Long</a>
+21 Jan 2025,We are running!,<a href='/courses/gardens-short/'>Gardens Short</a>,<a href='/courses/gardens-long/'>Gardens Long</a>
+28 Jan 2025,We are running!,<a href='/courses/gardens-short/'>Gardens Short</a>,<a href='/courses/gardens-long/'>Gardens Long</a>
+4 Feb 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavendar-bay/'>Lavendar Bay</a>
+11 Feb 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavendar-bay/'>Lavendar Bay</a>
+18 Feb 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavendar-bay/'>Lavendar Bay</a>
+25 Feb 2025,We are running -  Pride Run!,<a href='/courses/rocks/'>Rocks</a>,Opera House
+4 Mar 2025,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+11 Mar 2025,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+18 Mar 2025,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+25 Mar 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavendar-bay/'>Lavendar Bay</a>
+1 Apr 2025,We are running!,<a href='/courses/rushcutters-long/'>Rushcutters - Short</a>,<a href='/courses/rushcutters-short/'>Rushcutters - Long</a>
+8 Apr 2025,We are running!,Pyrmont/Rocks,Opera House
+15 Apr 2025,We are running!,Pyrmont/Rocks,Opera House / SuperCourse
+22 Apr 2025,We are running!,Pyrmont/Rocks,Opera House / SuperCourse
+29 Apr 2025,We are running!,Pyrmont/Rocks,Opera House
+6 May 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/harbour-bridge-milsons-point/'>Harbour Bridge / Milsons Point</a>
+13 May 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/harbour-bridge-milsons-point/'>Harbour Bridge / Milsons Point</a>
+20 May 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/harbour-bridge-milsons-point/'>Harbour Bridge / Milsons Point</a>
+27 May 2025,We are running!,Vivid Course,N/A
+3 Jun 2025,Not running - taking a break for vivid,N/A,N/A
+10 Jun 2025,Not running - taking a break for vivid,N/A,N/A
+17 Jun 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/harbour-bridge-milsons-point/'>Harbour Bridge / Milsons Point</a>
+24 Jun 2025,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+1 Jul 2025,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+8 Jul 2025,We are running!,Pyrmont/Rocks,Opera House
+15 Jul 2025,We are running!,Pyrmont/Rocks,Opera House
+22 Jul 2025,We are running!,Pyrmont/Rocks,Opera House
+29 Jul 2025,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+5 Aug 2025,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+12 Aug 2025,We are running!,Pyrmont/Rocks,Opera House / SuperCourse
+19 Aug 2025,We are running!,Pyrmont/Rocks,Opera House / SuperCourse
+26 Aug 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/harbour-bridge-milsons-point/'>Harbour Bridge / Milsons Point</a>
+2 Sep 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/harbour-bridge-milsons-point/'>Harbour Bridge / Milsons Point</a>
+9 Sep 2025,We are running!,Pyrmont/Rocks,Opera House
+16 Sep 2025,We are running!,Pyrmont/Rocks,Opera House
+23 Sep 2025,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+30 Sep 2025,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+7 Oct 2025,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+14 Oct 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavendar-bay/'>Lavendar Bay</a>
+21 Oct 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavendar-bay/'>Lavendar Bay</a>
+28 Oct 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavendar-bay/'>Lavendar Bay</a>
+4 Nov 2025,Not running,N/A,N/A
+11 Nov 2025,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavendar-bay/'>Lavendar Bay</a>
+18 Nov 2025,We are running!,<a href='/courses/gardens-short/'>Gardens Short</a>,<a href='/courses/gardens-long/'>Gardens Long</a>
+25 Nov 2025,We are running!,<a href='/courses/gardens-short/'>Gardens Short</a>,<a href='/courses/gardens-long/'>Gardens Long</a>
+2 Dec 2025,We are running!,<a href='/courses/gardens-short/'>Gardens Short</a>,<a href='/courses/gardens-long/'>Gardens Long</a>
+9 Dec 2025,We are running!,Santa Hat Run,N/A
+16 Dec 2025,We are running!,<a href='/courses/rushcutters-long/'>Rushcutters - Short</a>,<a href='/courses/rushcutters-short/'>Rushcutters - Long</a>
+23 Dec 2025,<span color='red'>Not running</span>,N/A,N/A
+30 Dec 2025,<span color='red'>Not running</span>,N/A,N/A
+6 Jan 2026,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,N/A
