@@ -4,7 +4,7 @@ on:
    workflow_dispatch:
    
 jobs:
-  format-code:
+  remove-2nd-row:
     runs-on: ubuntu-latest
 
     permissions:
@@ -22,5 +22,6 @@ jobs:
       - name: Remove 2nd line in dates.csv
         run : |
           sed -i '2d' "/_data/dates.csv"
+        working-directory: repo
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5
