@@ -25,3 +25,6 @@ jobs:
         run : sed -i '2d' "./_data/dates.csv"
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5
+
+  redeploy_site:
+    uses: "./.github/workflows/jekyll.yml"
