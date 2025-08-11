@@ -1,5 +1,5 @@
 ---
-title: "SHR Supercourse"
+title: "Supercourse"
 excerpt: " "
 header:
   # image: /assets/images/courses/supercourse.jpeg
