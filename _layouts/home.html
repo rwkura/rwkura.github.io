@@ -4,8 +4,7 @@ layout: archive
 
 {{ content }}
 <div style="font-size:.85em">
-
-
+{% assign nextRun = site.data.dates | find: "Status", "We are running!" %}
   {% if site.data.dates[0]["Status"] == "We are running!" %}
   <div id="nextRunYes">
     <b>Our next run is on {{ site.data.dates[0].Date }} at 6:00pm</b><br> <b>Short Course:</b>
@@ -13,11 +12,10 @@ layout: archive
   </div>
   {% else %}
   <div id="nextRunNo">
-    <b>We won't be running on {{ site.data.dates[0].Date }}.</b> Check our <a href="/schedule">schedule</a> for
-    information about future weeks.
+    <b>We won't be running on {{ site.data.dates[0].Date }}, our next run is on {{nextRun["Date"]}}</b> <br>
+    Check our <a href="/schedule">schedule</a> for information about future weeks.
   </div>
   {% endif %}
-
 
   <img src="/assets/images/SHR Banner Crop.jpg" alt="SHR Banner" height="400">
   </br>
