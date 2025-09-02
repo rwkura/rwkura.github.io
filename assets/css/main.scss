@@ -7,3 +7,17 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+#nextRunYes{
+  border: 1px solid black;
+  text-align: center;
+  background: rgb(120, 255, 120);
+  margin: 1em;
+}
+
+#nextRunNo{
+  border: 1px solid black;
+  text-align: center;
+  background: lightcoral;
+  margin: 1em;
+}
