@@ -2,7 +2,7 @@ name: Update 2nd line
 
 on: 
    schedule:
-      - cron: "0 11 * * 2"
+      - cron: "0 10 * * 2"
    workflow_dispatch:
    
 jobs:
