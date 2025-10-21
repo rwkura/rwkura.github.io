@@ -2,6 +2,7 @@
 title: "Vivid"
 excerpt: " "
 header:
+distance: "7.7km"
   # image: /assets/images/courses/supercourse.jpeg
   # teaser: assets/images/courses/supercourse.jpeg
 ---

@@ -2,6 +2,7 @@
 title: "Gardens - Long"
 excerpt: " "
 header:
+distance: "12.5km"
   # image: /assets/images/courses/gardens-long.png
   # teaser: assets/images/courses/gardens-long.png
 ---

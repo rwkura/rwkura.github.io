@@ -2,6 +2,7 @@
 title: "Pyrmont/Opera House"
 excerpt: " "
 header:
+distance: "13.4km"
   # image: /assets/images/courses/pyrmont.png
   # teaser: assets/images/courses/pyrmont.png
 ---

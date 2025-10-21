@@ -3,12 +3,27 @@ layout: archive
 ---
 
 {{ content }}
+
+{% assign short_course_url = site.data.dates[0]["Short Course"] | split:"href='" | last | split:"'" | first %}
+{% assign long_course_url = site.data.dates[0]["Long Course"] | split:"href='" | last | split:"'" | first %}
+
 <div style="font-size:.85em">
-{% assign nextRun = site.data.dates | find: "Status", "We are running!" %}
+  {% assign nextRun = site.data.dates | find: "Status", "We are running!" %}
   {% if site.data.dates[0]["Status"] == "We are running!" %}
   <div id="nextRunYes">
     <b>Our next run is on {{ site.data.dates[0].Date }} at 6:00pm</b><br> <b>Short Course:</b>
-    {{site.data.dates[0]["Short Course"]}} <br> <b>Long Course:</b> {{site.data.dates[0]["Long Course"]}}
+    {{site.data.dates[0]["Short Course"]}}
+    {% assign short_pages = site.courses | where_exp: 'page',
+    'page.url==short_course_url' %}
+    {% for page in short_pages %}
+    ({{page.distance}})
+    {% endfor %}
+    <br> <b>Long Course:</b> {{site.data.dates[0]["Long Course"]}}
+    {% assign long_pages = site.courses | where_exp: 'page',
+    'page.url==long_course_url' %}
+    {% for page in long_pages %}
+    ({{page.distance}})
+    {% endfor %}
   </div>
   {% else %}
   <div id="nextRunNo">
@@ -22,7 +37,8 @@ layout: archive
   </br>
 
   <body>
-    <p>Sydney Harbour Runners are a community of runners, and we make our SHR run nights relaxed and social. There is a
+    <p>Sydney Harbour Runners are a community of runners, and we make our SHR run nights relaxed and social. There is
+      a
       pace group for most runners, and we welcome all new runners to come along.</p>
     <p>Weekly group runs are FREE and we meet on <b>Tuesdays from 6:00pm</b> at the <a
         href="https://goo.gl/maps/UNHAMsSZq4d9pz5M9">Cockle Bay Wharf Bird Fountain</a> in Darling
@@ -35,10 +51,6 @@ layout: archive
       <li>Runs leave 6:15pm from the Cockle Bay Wharf Bird Fountain</li>
     </ul>
   </body>
-  <!-- <h4>Is SHR Running this week?</h3> -->
-  <!-- <p style="color: red;">We're on break for the end of the year! We will be back on 7 Jan 2025.</p> -->
-  <!-- <p>Yes! We are running this week. Check our <a href="/schedule">schedule page</a> for information about future weeks.</p> -->
-  <!-- <p style="color: red;">We will not be running on 3 June and 10 June due to Vivid, returning back to our regular schedule on 17 June. You can also check our <a href="/schedule">schedule page</a> for information about future weeks.</p> -->
 
   <h4>When & Where do you meet?</h3>
     <p>Tuesdays at 6:00pm starting at the <a href="https://goo.gl/maps/UNHAMsSZq4d9pz5M9">Cockle Bay Wharf Bird

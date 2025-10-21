@@ -2,6 +2,7 @@
 title: "Rocks Reverse - Long"
 excerpt: " "
 header:
+distance: "12.2km"
   # image: /assets/images/courses/gardens-short.png
   # teaser: assets/images/courses/gardens-short.png
 ---

@@ -2,6 +2,7 @@
 title: "Pyrmont/Barangaroo"
 excerpt: " "
 header:
+distance: "7.4km"
   # image: /assets/images/courses/pyrmont.png
   # teaser: assets/images/courses/pyrmont.png
 ---

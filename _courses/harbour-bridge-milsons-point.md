@@ -2,6 +2,7 @@
 title: "Harbour Bridge / Milsons Point"
 excerpt: " "
 header:
+distance: "11.8km"
   # image: /assets/images/courses/blackwattle-bay.png
   # teaser: assets/images/courses/blackwattle-bay.png
 ---

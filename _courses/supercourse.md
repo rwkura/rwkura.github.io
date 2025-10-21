@@ -2,6 +2,7 @@
 title: "Supercourse"
 excerpt: " "
 header:
+distance: "17.8km"
   # image: /assets/images/courses/supercourse.jpeg
   # teaser: assets/images/courses/supercourse.jpeg
 ---

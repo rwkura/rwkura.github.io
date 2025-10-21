@@ -2,6 +2,7 @@
 title: "Opera House"
 excerpt: " "
 header:
+distance: "10.5km"
   # image: /assets/images/courses/gardens-short.png
   # teaser: assets/images/courses/gardens-short.png
 ---

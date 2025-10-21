@@ -2,6 +2,7 @@
 title: "Hoka Training Short"
 excerpt: " "
 header:
+distance: "7.9km"
   # image: /assets/images/courses/hoka-training-short.jpeg
   # teaser: assets/images/courses/hoka-training-short.jpeg
 ---

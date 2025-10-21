@@ -2,6 +2,7 @@
 title: "Pyrmont"
 excerpt: " "
 header:
+distance: "8.2km"
   # image: /assets/images/courses/pyrmont.png
   # teaser: assets/images/courses/pyrmont.png
 ---

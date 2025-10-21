@@ -2,6 +2,7 @@
 title: "Supercourse (Pyrmont Last)"
 excerpt: " "
 header:
+distance: "17.3km"
   # image: /assets/images/courses/supercourse.jpeg
   # teaser: assets/images/courses/supercourse.jpeg
 ---

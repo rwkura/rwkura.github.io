@@ -2,6 +2,7 @@
 title: "Rushcutters Bay - Short"
 excerpt: " "
 header:
+distance: "11.0km"
   # image: /assets/images/courses/supercourse.jpeg
   # teaser: assets/images/courses/supercourse.jpeg
 ---
