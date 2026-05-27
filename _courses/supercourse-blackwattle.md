@@ -1,5 +1,5 @@
 ---
-title: "Supercourse + Blackwattle"
+title: "TCS Sydney Marathon x SHR Run 26k"
 excerpt: " "
 header:
 distance: "26.3km"
