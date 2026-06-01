@@ -2,8 +2,8 @@
 title: "4D Health & Performance"
 excerpt: ""
 header:
-  image: /assets/images/4d.jpg
-  teaser: assets/images/4d.jpg
+  image: /assets/images/4d.jpeg
+  teaser: assets/images/4d.jpeg
 ---
 
 4D Health & Performance is one of Sydney Harbour Runners preferred recovery clinics. It was founded on the belief that true recovery and performance require an integrated, multidisciplinary approach. The brand combines chiropractic care, physiotherapy, exercise physiology, and high-performance training under one roof to guide athletes and individuals from injury recovery to peak performance.
