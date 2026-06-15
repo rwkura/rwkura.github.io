@@ -11,7 +11,7 @@ layout: archive
   {% assign nextRun = site.data.dates | find: "Status", "We are running!" %}
   {% if site.data.dates[0]["Status"] == "We are running!" %}
   <div id="nextRunYes">
-    <b>Our next run is on {{ site.data.dates[0].Date }} at 6:00pm</b><br> <b>Short Course:</b>
+    <b>Our next run is on {{ site.data.dates[0].Date }} at {{ site.data.dates[0].Time }}</b><br> <b>Short Course:</b>
     {{site.data.dates[0]["Short Course"]}}
     {% assign short_pages = site.courses | where_exp: 'page',
     'page.url==short_course_url' %}

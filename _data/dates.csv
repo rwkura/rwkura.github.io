@@ -1,34 +1,34 @@
-Date,Status,Short Course,Long Course
-16 Jun 2026,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/harbour-bridge-milsons-point/'>Bridge/Milsons Point</a>
-21 Jun 2026 (Sunday),We are running!,N/A,<a href='/courses/supercourse/'>Sydney Marathon Training Run</a>
-23 Jun 2026,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
-30 Jun 2026,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
-07 Jul 2026,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a>
-14 Jul 2026,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a>
-19 Jun 2026 (Sunday),We are running!,N/A,<a href='/courses/supercourse/'>Sydney Marathon Training Run</a>
-21 Jul 2026,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a>
-28 Jul 2026,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
-04 Aug 2026,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
-02 Aug 2026 (Sunday),We are running!,N/A,<a href='/courses/supercourse/'>Sydney Marathon Training Run</a>
-11 Aug 2026,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a> / Extra Long option: <a href='/courses/supercourse-pyrmont-last/'>Supercourse</a>
-18 Aug 2026,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a> / Extra Long option: <a href='/courses/supercourse-pyrmont-last/'>Supercourse</a>
-25 Aug 2026,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/harbour-bridge-milsons-point/'>Bridge/Milsons Point</a>
-01 Sep 2026,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/harbour-bridge-milsons-point/'>Bridge/Milsons Point</a>
-08 Sep 2026,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a>
-15 Sep 2026,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a>
-22 Sep 2026,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
-29 Sep 2026,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
-06 Oct 2026,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
-13 Oct 2026,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavender-bay/'>Lavender Bay</a>
-20 Oct 2026,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavender-bay/'>Lavender Bay</a>
-27 Oct 2026,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavender-bay/'>Lavender Bay</a>
-03 Nov 2026,Not running - Melbourne Cup,N/A,N/A
-10 Nov 2026,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavender-bay/'>Lavender Bay</a>
-17 Nov 2026,We are running!,<a href='/courses/gardens-short/'>Gardens Short</a>,<a href='/courses/gardens-long/'>Gardens Long</a>
-24 Nov 2026,We are running!,<a href='/courses/gardens-short/'>Gardens Short</a>,<a href='/courses/gardens-long/'>Gardens Long</a>
-01 Dec 2026,We are running!,<a href='/courses/gardens-short/'>Gardens Short</a>,<a href='/courses/gardens-long/'>Gardens Long</a>
-08 Dec 2026,We are running!,<a href='/courses/santa-hat-run/'>Santa Hat Run</a>,N/A
-15 Dec 2026,We are running!,<a href='/courses/rushcutters-long/'>Rushcutters</a>,<a href='/courses/rushcutters-long/'>Rushcutters</a>
-22 Dec 2026,Not running - holiday break!,N/A,N/A
-29 Dec 2026,Not running - holiday break!,N/A,N/A
-05 Jan 2027,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,N/A
+Date,Time,Status,Short Course,Long Course
+16 Jun 2026,6:00pm,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/harbour-bridge-milsons-point/'>Bridge/Milsons Point</a>
+21 Jun 2026 (Sunday),8:00am,We are running!,N/A,<a href='/courses/supercourse/'>Sydney Marathon Training Run</a>
+23 Jun 2026,6:00pm,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+30 Jun 2026,6:00pm,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+07 Jul 2026,6:00pm,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a>
+14 Jul 2026,6:00pm,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a>
+19 Jun 2026 (Sunday),8:00am,We are running!,N/A,<a href='/courses/supercourse/'>Sydney Marathon Training Run</a>
+21 Jul 2026,6:00pm,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a>
+28 Jul 2026,6:00pm,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+04 Aug 2026,6:00pm,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+02 Aug 2026 (Sunday),8:00am,We are running!,N/A,<a href='/courses/supercourse/'>Sydney Marathon Training Run</a>
+11 Aug 2026,6:00pm,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a> / Extra Long option: <a href='/courses/supercourse-pyrmont-last/'>Supercourse</a>
+18 Aug 2026,6:00pm,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a> / Extra Long option: <a href='/courses/supercourse-pyrmont-last/'>Supercourse</a>
+25 Aug 2026,6:00pm,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/harbour-bridge-milsons-point/'>Bridge/Milsons Point</a>
+01 Sep 2026,6:00pm,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/harbour-bridge-milsons-point/'>Bridge/Milsons Point</a>
+08 Sep 2026,6:00pm,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a>
+15 Sep 2026,6:00pm,We are running!,<a href='/courses/pyrmont-barangaroo/'>Pyrmont/Rocks</a>,<a href='/courses/opera-house/'>Opera House</a>
+22 Sep 2026,6:00pm,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+29 Sep 2026,6:00pm,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+06 Oct 2026,6:00pm,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,<a href='/courses/blackwattle-bay/'>Blackwattle Bay</a>
+13 Oct 2026,6:00pm,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavender-bay/'>Lavender Bay</a>
+20 Oct 2026,6:00pm,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavender-bay/'>Lavender Bay</a>
+27 Oct 2026,6:00pm,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavender-bay/'>Lavender Bay</a>
+03 Nov 2026,N/A,Not running - Melbourne Cup,N/A,N/A
+10 Nov 2026,6:00pm,We are running!,<a href='/courses/rocks/'>Rocks</a>,<a href='/courses/lavender-bay/'>Lavender Bay</a>
+17 Nov 2026,6:00pm,We are running!,<a href='/courses/gardens-short/'>Gardens Short</a>,<a href='/courses/gardens-long/'>Gardens Long</a>
+24 Nov 2026,6:00pm,We are running!,<a href='/courses/gardens-short/'>Gardens Short</a>,<a href='/courses/gardens-long/'>Gardens Long</a>
+01 Dec 2026,6:00pm,We are running!,<a href='/courses/gardens-short/'>Gardens Short</a>,<a href='/courses/gardens-long/'>Gardens Long</a>
+08 Dec 2026,6:00pm,We are running!,<a href='/courses/santa-hat-run/'>Santa Hat Run</a>,N/A
+15 Dec 2026,6:00pm,We are running!,<a href='/courses/rushcutters-long/'>Rushcutters</a>,<a href='/courses/rushcutters-long/'>Rushcutters</a>
+22 Dec 2026,6:00pm,Not running - holiday break!,N/A,N/A
+29 Dec 2026,6:00pm,Not running - holiday break!,N/A,N/A
+05 Jan 2027,6:00pm,We are running!,<a href='/courses/pyrmont/'>Pyrmont</a>,N/A
