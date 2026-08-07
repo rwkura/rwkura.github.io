@@ -12,6 +12,8 @@ We strongly value the community we’ve created that live their daily lives with
 
 Our dedicated team lives and breathes the same sport and adventure-based lifestyle that we promote.  Our Mission is to inspire people to be 1% better every day by developing and delivering quality sportswear and streetwear products that resonate with our experience-driven community.
 
+15% Discount code: SHRUNCREW15
+
 [https://www.lskd.co/](https://www.lskd.co/)
 
 _Ask our friendly Run Leader team about our exclusive SHR discount! Available both in-store and online!_
