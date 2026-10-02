@@ -14,4 +14,4 @@ Lightweight, sweat-proof and designed to stay put through long training sessions
 Thanks Shokz for supporting Sydney Harbour Runners.
 
 **CODE: SHR-15 for $15 off or go to [https://shokz.info/shr-15](https://shokz.info/shr-15)**
-[https://shokz.com.au](https://shokz.com.au)
+
