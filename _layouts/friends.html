@@ -1,0 +1,95 @@
+---
+layout: archive
+---
+
+<style>
+  .friends-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    max-width: 70vw;
+    margin: 1.5em auto;
+  }
+
+  @media (min-width: 48em) {
+    .friends-list {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.75em;
+    }
+  }
+
+  .friend-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1.25em;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  }
+
+  .friend-card__logo {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fafafa;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .friend-card__logo img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transform: none;
+    position: static;
+    top: auto;
+  }
+
+  .friend-card__body {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .friend-card__body h2 {
+    margin-top: 0;
+    margin-bottom: 0.4em;
+    font-family: $sans-serif-narrow;
+    border-bottom: none;
+  }
+
+  .friend-card__body h2 a {
+    text-decoration: none;
+  }
+
+  .friend-card__body p {
+    margin: 0.5em 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+</style>
+
+{{ content }}
+
+<div class="friends-list">
+  {% assign friends = site.friends | where_exp: "f", "f.hidden != true" | sort: "order" %}
+  {% for friend in friends %}
+    <article class="friend-card">
+      <a class="friend-card__logo" href="{{ friend.url | relative_url }}">
+        {% if friend.header.teaser %}
+          <img src="{{ friend.header.teaser | relative_url }}" alt="{{ friend.title }}">
+        {% endif %}
+      </a>
+      <div class="friend-card__body">
+        <h2><a href="{{ friend.url | relative_url }}">{{ friend.title }}</a></h2>
+        {{ friend.content | markdownify }}
+      </div>
+    </article>
+  {% endfor %}
+</div>
