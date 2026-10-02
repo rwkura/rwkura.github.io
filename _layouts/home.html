@@ -1,5 +1,20 @@
 ---
 layout: archive
+gallery_images:
+  - image_path: /assets/images/4d.jpeg
+    alt_text: "4D"
+  - image_path: /assets/images/Hoka.png
+    alt_text: "Hoka"
+  - image_path: /assets/images/lskd.png
+    alt_text: "LSKD"
+  - image_path: /assets/images/maurten.png
+  - image_path: /assets/images/Rele.jpg
+  - image_path: /assets/images/run-nation2.png
+  - image_path: /assets/images/shokz.png
+  - image_path: /assets/images/StrengthPilates.jpg
+  - image_path: /assets/images/stretchlab.png
+
+
 ---
 
 {{ content }}
@@ -69,7 +84,16 @@ layout: archive
         <!-- <h1 style="text-align: center;">Thank you to our friends for supporting us!</h1>
         <a href="/friends"><img src="assets\images\CombinedFriends.png"
             style="max-width: 85%; display: block; margin-right: auto; margin-left: auto;"></a> -->
-</div>
+<!-- 
+<div class="mini-gallery">
+  {% assign gallery = page.gallery_images | default: layout.gallery_images %}
+  {% for item in gallery %}
+    <div class="gallery-item">
+      <img src="{{ item.image_path }}" alt="{{ item.alt_text }}">
+    </div>
+  {% endfor %}
+</div> -->
+          </div>
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
