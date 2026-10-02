@@ -1,7 +1,5 @@
 ---
 title: Friends of SHR
-layout: collection
+layout: friends
 permalink: /friends/
-collection: friends
-entries_layout: grid
 ---
