@@ -12,4 +12,4 @@ MAURTEN was founded on a simple mission: to revolutionize sports nutrition throu
 Thank you Enso Sports Australia and Maurten for supporting Sydney Harbour Runners
 
 **20% Discount code: SYDHARBOUR**
-[https://www.maurten.com](https://www.maurten.com)
+[https://www.maurten.com.au](https://www.maurten.com.au)
