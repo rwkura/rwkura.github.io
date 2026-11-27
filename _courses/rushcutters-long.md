@@ -9,4 +9,4 @@ distance: "14.9km"
 
 <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3301483798414568070" data-full-width="true" data-style="standard" data-map-hash="12.78/-33.86525/151.21866" data-club-id="109154" data-from-embed="true"></div>
 
-<a href="\assets\gpx_files\rushcutters-bay-long.gpx">GPX File</a>
+<a href="/assets/gpx_files/rushcutters-bay-long.gpx">GPX File</a>

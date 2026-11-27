@@ -1,0 +1,65 @@
+---
+layout: archive
+---
+
+<p class="shr-page-subtitle">Browse our Sydney CBD &amp; Harbour routes. Filter by distance, view interactive Strava maps, or grab the GPX file for your watch.</p>
+
+{{ content }}
+
+<div class="shr-filter-bar" role="group" aria-label="Filter courses by distance">
+  <button type="button" class="shr-filter-btn is-active" data-filter="all">All Courses</button>
+  <button type="button" class="shr-filter-btn" data-filter="short">Short (&lt;10km)</button>
+  <button type="button" class="shr-filter-btn" data-filter="long">Long (10–15km)</button>
+  <button type="button" class="shr-filter-btn" data-filter="super">Supercourse (15km+)</button>
+</div>
+
+<div class="shr-courses-grid">
+  {% assign courses = site.courses | where_exp: "c", "c.hidden != true" %}
+  {% for course in courses %}
+    {% assign dist_num = course.distance | remove: "km" | remove: "KM" | strip | plus: 0 %}
+    {% if dist_num < 10 %}
+      {% assign category = "short" %}
+    {% elsif dist_num < 15 %}
+      {% assign category = "long" %}
+    {% else %}
+      {% assign category = "super" %}
+    {% endif %}
+
+    {% assign gpx_href = "" %}
+    {% if course.content contains ".gpx" %}
+      {% assign gpx_parts = course.content | split: 'href="' %}
+      {% if gpx_parts.size > 1 %}
+        {% assign raw_href = gpx_parts[1] | split: '"' | first %}
+        {% if raw_href contains ".gpx" %}
+          {% assign gpx_href = raw_href | replace: "\\", "/" %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+
+    <article class="shr-course-card" data-category="{{ category }}">
+      <div class="shr-course-card__header">
+        <h2 class="shr-course-card__title">
+          <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+        </h2>
+        {% if course.distance %}
+          <span class="shr-pill shr-pill--blue">{{ course.distance }}</span>
+        {% endif %}
+      </div>
+
+      <div class="shr-course-card__media">
+        {{ course.content | markdownify }}
+      </div>
+
+      <div class="shr-course-card__footer">
+        {% if gpx_href != "" %}
+          <a class="shr-btn shr-btn--secondary shr-btn--sm" href="{{ gpx_href | relative_url }}" download>
+            {% include icon.html name='download' %} GPX File
+          </a>
+        {% else %}
+          <span></span>
+        {% endif %}
+        <a class="shr-btn shr-btn--primary shr-btn--sm" href="{{ course.url | relative_url }}">View Route &rarr;</a>
+      </div>
+    </article>
+  {% endfor %}
+</div>

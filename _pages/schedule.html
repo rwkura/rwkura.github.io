@@ -5,25 +5,98 @@ permalink: /schedule/
 layout: archive
 ---
 
-</br>
-<table>
-    {% for row in site.data.dates %}
-      {% if forloop.first %}
-      <tr>
-        {% for pair in row %}
-          <th>{{ pair[0] }}</th>
-        {% endfor %}
-      </tr>
-      {% endif %}
-  
-      {% tablerow pair in row %}
-        {{ pair[1] }}
-      {% endtablerow %}
-    {% endfor %}
-  </table>
-<br>
-<b>How to import GPX files into your running app & smartwatch</b>
-<ul>
-<li><a href="https://support.garmin.com/en-AU/?faq=wKuZXCaZRP4mWPX5aRz5h5">Garmin App</a></li>
-<li><a href="https://support.strava.com/hc/en-us/articles/206811950-Uploading-Route-Files#:~:text=You%20can%20create%20a%20Strava,use%20to%20create%20a%20route.">Strava Website</a></li>
-</ul>
+<p class="shr-page-subtitle">Weekly Tuesday night runs from Cockle Bay Wharf Bird Fountain. Check the start times below
+  for special events.</p>
+
+{% assign has_extra_long = false %}
+{% for row in site.data.dates %}
+{% assign ex = row["Extra Long Course"] | default: "" | strip %}
+{% if ex != "" and ex != "N/A" %}
+{% assign has_extra_long = true %}
+{% endif %}
+{% endfor %}
+
+<div class="shr-table-card">
+  <div class="shr-table-scroll">
+    <table class="shr-schedule">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Status</th>
+          <th>Short Course</th>
+          <th>Long Course</th>
+          {% if has_extra_long %}<th>Extra Long</th>{% endif %}
+        </tr>
+      </thead>
+      <tbody>
+        {% assign found_next = false %}
+        {% for row in site.data.dates %}
+        {% assign is_running = false %}
+        {% if row["Status"] == "We are running!" %}
+        {% assign is_running = true %}
+        {% endif %}
+        {% assign is_next = false %}
+        {% if is_running and found_next == false %}
+        {% assign is_next = true %}
+        {% assign found_next = true %}
+        {% endif %}
+        {% assign short_val = row["Short Course"] | default: "" | strip %}
+        {% assign long_val = row["Long Course"] | default: "" | strip %}
+        {% assign extra_val = row["Extra Long Course"] | default: "" | strip %}
+        <tr{% if is_next %} class="is-next" {% endif %}>
+          <td>
+            <span class="shr-schedule__date">
+              {{ row["Date"] }}
+              {% if is_next %}<span class="shr-pill shr-pill--blue">Next</span>{% endif %}
+            </span>
+          </td>
+          <td>{{ row["Time"] }}</td>
+          <td>
+            {% if is_running %}
+            <span class="shr-pill shr-pill--running"><span class="shr-dot shr-dot--green"></span> {{ row["Status"]
+              }}</span>
+            {% else %}
+            <span class="shr-pill shr-pill--off"><span class="shr-dot shr-dot--red"></span> {{ row["Status"] }}</span>
+            {% endif %}
+          </td>
+          <td class="shr-schedule__course">
+            {% include schedule-course.html value=short_val %}
+          </td>
+          <td class="shr-schedule__course">
+            {% include schedule-course.html value=long_val %}
+          </td>
+          {% if has_extra_long %}
+          <td class="shr-schedule__course shr-schedule__course--extra">
+            {% include schedule-course.html value=extra_val %}
+          </td>
+          {% endif %}
+          </tr>
+          {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<section class="shr-gpx-guides">
+  <h2>How to import GPX files into your running app &amp; smartwatch</h2>
+  <div class="shr-gpx-guides__grid">
+    <a class="shr-guide-link" href="https://support.garmin.com/en-AU/?faq=wKuZXCaZRP4mWPX5aRz5h5" target="_blank"
+      rel="noopener noreferrer">
+      <div>
+        <strong>Garmin Connect App</strong>
+        <span>Official step-by-step guide to importing GPX courses</span>
+      </div>
+      <span class="shr-guide-link__arrow">&rarr;</span>
+    </a>
+    <a class="shr-guide-link"
+      href="https://support.strava.com/hc/en-us/articles/206811950-Uploading-Route-Files#:~:text=You%20can%20create%20a%20Strava,use%20to%20create%20a%20route."
+      target="_blank" rel="noopener noreferrer">
+      <div>
+        <strong>Strava Website</strong>
+        <span>Upload a GPX file to create and sync a Strava route</span>
+      </div>
+      <span class="shr-guide-link__arrow">&rarr;</span>
+    </a>
+  </div>
+</section>

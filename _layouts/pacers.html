@@ -1,0 +1,37 @@
+---
+layout: archive
+---
+
+<p class="shr-page-subtitle">Meet the volunteer pacers leading our Tuesday night pace groups around Sydney Harbour.</p>
+
+{{ content }}
+
+<div class="shr-pacers-grid">
+  {% assign pacers = site.pacers | where_exp: "p", "p.hidden != true" %}
+  {% for pacer in pacers %}
+    <a class="shr-pacer-card" href="{{ pacer.url | relative_url }}">
+      {% if pacer.header.teaser %}
+        <div class="shr-pacer-card__photo">
+          <img src="{{ pacer.header.teaser | relative_url }}" alt="{{ pacer.title }}"{% if pacer.header.image_width %} width="{{ pacer.header.image_width }}" height="{{ pacer.header.image_height }}"{% endif %}{% if forloop.index > 3 %} loading="lazy"{% endif %} decoding="async">
+        </div>
+      {% endif %}
+      <div class="shr-pacer-card__body">
+        <div class="shr-pacer-card__head">
+          <h2 class="shr-pacer-card__name">{{ pacer.title }}</h2>
+          {% assign pace_label = pacer.excerpt | strip %}
+          {% if pace_label != "" %}
+            <span class="shr-pill shr-pill--blue">{{ pace_label }}</span>
+          {% endif %}
+        </div>
+        {% assign clean_bio = pacer.content | strip_html | strip %}
+        {% if pace_label != "" %}
+          {% assign clean_bio = clean_bio | remove_first: pace_label | strip %}
+        {% endif %}
+        {% if clean_bio != "" %}
+          <p class="shr-pacer-card__bio">{{ clean_bio }}</p>
+        {% endif %}
+        <span class="shr-pacer-card__more">Read bio &rarr;</span>
+      </div>
+    </a>
+  {% endfor %}
+</div>

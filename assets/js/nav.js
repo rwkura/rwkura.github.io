@@ -37,7 +37,7 @@
     breakWidths = [];
 
     Array.prototype.forEach.call(vlinks.children, function (item) {
-      totalSpace += outerWidth(item, false);
+      totalSpace += outerWidth(item, true);
       numOfItems += 1;
       breakWidths.push(totalSpace);
     });
@@ -46,7 +46,7 @@
       var clone = item.cloneNode(true);
       clone.style.visibility = "hidden";
       vlinks.appendChild(clone);
-      totalSpace += outerWidth(clone, false);
+      totalSpace += outerWidth(clone, true);
       numOfItems += 1;
       breakWidths.push(totalSpace);
       vlinks.removeChild(clone);
@@ -66,12 +66,13 @@
     var guard = numOfItems + 2;
     while (guard-- > 0) {
       var visible = vlinks.children.length;
+      var btnWidth = outerWidth(btn, true) || 48;
       var availableSpace =
         nav.clientWidth -
         outerWidth(logo, true) -
         outerWidth(title, true) -
         outerWidth(search, true) -
-        (visible !== breakWidths.length ? outerWidth(btn, true) : 0);
+        (visible !== breakWidths.length ? btnWidth : 0);
       var requiredSpace = visible > 0 ? breakWidths[visible - 1] : 0;
 
       if (visible > 0 && requiredSpace > availableSpace) {
@@ -79,7 +80,7 @@
       } else if (
         visible < numOfItems &&
         availableSpace +
-          (visible === breakWidths.length - 1 ? outerWidth(btn, true) : 0) >
+          (visible === breakWidths.length - 1 ? btnWidth : 0) >
           breakWidths[visible]
       ) {
         vlinks.appendChild(hlinks.firstElementChild);

@@ -1,23 +1,26 @@
 /* ==========================================================================
-   Air skin
+   Sydney Harbour Runners Skin (based on Air)
    ========================================================================== */
 
 /* Colors */
-$background-color: #eeeeee !default;
-$text-color: #222831 !default;
-$muted-text-color: #393e46 !default;
+$background-color: #f8fafc !default;
+$text-color: #1e293b !default;
+$muted-text-color: #64748b !default;
 $primary-color: #4DBFEA !default;
-$border-color: mix(#fff, #393e46, 75%) !default;
-$footer-background-color: $primary-color !default;
-$link-color: #393e46 !default;
-$masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
-$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+$border-color: #e2e8f0 !default;
+$footer-background-color: #0f172a !default;
+$link-color: #0284c7 !default;
+$link-color-hover: #0369a1 !default;
+$link-color-visited: #0284c7 !default;
+$masthead-link-color: #334155 !default;
+$masthead-link-color-hover: #0f172a !default;
+$navicon-link-color-hover: #f1f5f9 !default;
 
 .page__footer {
-  color: rgb(0, 0, 0) !important; // override
+  color: #cbd5e1 !important;
 }
 
-.page__footer-follow .social-icons .svg-inline--fa {
-  color: inherit;
+.page__footer-follow .social-icons .svg-inline--fa,
+.page__footer .svg-icon {
+  color: #4DBFEA;
 }

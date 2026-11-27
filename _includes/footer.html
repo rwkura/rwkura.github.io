@@ -1,20 +1,22 @@
-<div style="font-size: medium;padding-bottom: .5em;"><a href="../assets/docs/SHR-Waiver.pdf">SHR Participant Waiver</a></div>
+<div class="shr-footer">
+  <div class="shr-footer__brand">
+    <div class="shr-footer__name">{{ site.name | default: site.title }}</div>
+    <p class="shr-footer__tagline">{{ site.tagline }} &middot; Free weekly social runs</p>
+    <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.</div>
+  </div>
 
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-
+  <div class="shr-footer__links">
+    <a class="shr-footer__pill" href="{{ '/assets/docs/SHR-Waiver.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+      {% include icon.html name='download' %} Participant Waiver (PDF)
+    </a>
     {% if site.footer.links %}
-      {% for link in site.footer.links %}
-        {% if link.label and link.url %}
-          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer">{% include icon.html icon=link.icon %} {{ link.label }}</a></li>
-        {% endif %}
-      {% endfor %}
+      <div class="shr-footer__socials">
+        {% for link in site.footer.links %}
+          {% if link.label and link.url %}
+            <a class="shr-footer__social" href="{{ link.url }}" rel="nofollow noopener noreferrer" target="_blank">{% include icon.html icon=link.icon %} <span>{{ link.label }}</span></a>
+          {% endif %}
+        {% endfor %}
+      </div>
     {% endif %}
-
-
-  </ul>
+  </div>
 </div>
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.</div>

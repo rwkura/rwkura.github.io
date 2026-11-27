@@ -1,7 +1,6 @@
 ---
 title: Courses
-layout: collectionVerticalTeasers
+layout: courses
 permalink: /courses/
 collection: courses
-entries_layout: grid
 ---

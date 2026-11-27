@@ -8,4 +8,4 @@ distance: "7.4km"
 ---
 <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3179238949444551498" data-full-width="true" data-style="standard" data-club-id="109154" data-from-embed="false"></div>
 
-<a href="\assets\gpx_files\pyrmont.gpx">GPX File</a>
+<a href="/assets/gpx_files/pyrmont.gpx">GPX File</a>

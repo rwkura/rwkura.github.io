@@ -1,4 +1,21 @@
 (function () {
+  // Course distance filter buttons (on /courses/)
+  var filterBtns = document.querySelectorAll(".shr-filter-btn");
+  if (filterBtns.length) {
+    var cards = document.querySelectorAll(".shr-course-card");
+    filterBtns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var filter = btn.dataset.filter;
+        filterBtns.forEach(function (b) {
+          b.classList.toggle("is-active", b === btn);
+        });
+        cards.forEach(function (card) {
+          card.hidden = filter !== "all" && card.dataset.category !== filter;
+        });
+      });
+    });
+  }
+
   var placeholders = document.querySelectorAll(".strava-embed-placeholder");
   if (!placeholders.length) return;
 

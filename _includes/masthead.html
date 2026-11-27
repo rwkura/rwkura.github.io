@@ -3,9 +3,9 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary">
         {% unless logo_path == empty %}
-          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}" width="258" height="132" decoding="async"></a>
+          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.title }}" width="258" height="132" decoding="async"></a>
         {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title }}
@@ -13,18 +13,23 @@
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
-              <a style="font-size:.9em" href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}{% if link.title=="FB"%}target="_blank"{% endif %}>{{ link.title }}</a>
+            {%- assign is_fb = false -%}
+            {%- if link.title == "FB" -%}{%- assign is_fb = true -%}{%- endif -%}
+            {%- assign is_active = false -%}
+            {%- if link.url != "/" and page.url contains link.url -%}
+              {%- assign is_active = true -%}
+            {%- endif -%}
+            <li class="masthead__menu-item{% if is_active %} is-active{% endif %}{% if is_fb %} masthead__menu-item--cta{% endif %}">
+              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}{% if is_fb %} target="_blank" rel="noopener noreferrer"{% endif %}{% if is_active %} aria-current="page"{% endif %}>{% if is_fb %}{% include icon.html name='facebook-square' %} {% endif %}{{ link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
-          <i class="fas fa-search"></i>
         </button>
         {% endif %}
-        <button class="greedy-nav__toggle hidden" type="button">
+        <button class="greedy-nav__toggle hidden" type="button" aria-label="Toggle menu">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
         </button>

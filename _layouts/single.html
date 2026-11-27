@@ -28,6 +28,9 @@ layout: default
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %} -->
 
     <div class="page__inner-wrap">
+      {% if page.collection %}
+        <a class="shr-back-link" href="{{ '/' | append: page.collection | append: '/' | relative_url }}">&larr; Back to {{ page.collection | capitalize }}</a>
+      {% endif %}
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title -%}
@@ -35,6 +38,9 @@ layout: default
             <a href="{{ page.url | absolute_url }}" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>
           {%- endif %}
+          {% if page.distance %}
+            <p style="margin-top:0;margin-bottom:1rem;"><span class="shr-pill shr-pill--blue">{{ page.distance }}</span></p>
+          {% endif %}
           {% include page__meta.html %}
         </header>
       {% endunless %}

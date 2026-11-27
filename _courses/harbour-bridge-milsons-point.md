@@ -8,4 +8,4 @@ distance: "11.8km"
 ---
 <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3346690140440189156" data-full-width="true" data-style="standard" data-club-id="109154" data-from-embed="false"></div>
 
-<a href="\assets\gpx_files\harbour-bridge-milsons-point.gpx">GPX File</a>
+<a href="/assets/gpx_files/harbour-bridge-milsons-point.gpx">GPX File</a>

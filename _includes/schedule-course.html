@@ -1,0 +1,29 @@
+{%- assign raw_val = include.value | default: "" | strip -%}
+{%- if raw_val == "" or raw_val == "N/A" -%}
+  <span class="shr-schedule__na">&mdash;</span>
+{%- else -%}
+  {%- assign course_url = "" -%}
+  {%- if raw_val contains "href='" -%}
+    {%- assign course_url = raw_val | split: "href='" | last | split: "'" | first -%}
+  {%- elsif raw_val contains 'href="' -%}
+    {%- assign course_url = raw_val | split: 'href="' | last | split: '"' | first -%}
+  {%- endif -%}
+  {%- assign course_url_slash = course_url | append: "/" -%}
+  {%- assign matched_dist = "" -%}
+  {%- if course_url != "" -%}
+    {%- for c in site.courses -%}
+      {%- if c.url == course_url or c.url == course_url_slash -%}
+        {%- if c.distance -%}
+          {%- assign matched_dist = c.distance -%}
+        {%- endif -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+  {%- if matched_dist != "" and raw_val contains "</a>" -%}
+    {%- capture dist_badge -%}<span class="shr-schedule__dist">{{ matched_dist }}</span></a>{%- endcapture -%}
+    {{ raw_val | replace_first: "</a>", dist_badge }}
+  {%- else -%}
+    {{ raw_val }}
+  {%- endif -%}
+{%- endif -%}

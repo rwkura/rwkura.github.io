@@ -1,7 +1,6 @@
 ---
 title: SHR Pacers
-layout: collectionVerticalTeasers
+layout: pacers
 permalink: /pacers/
 collection: pacers
-entries_layout: grid
 ---
