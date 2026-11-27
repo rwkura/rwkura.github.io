@@ -42,7 +42,7 @@ layout: archive
           <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
         </h2>
         {% if course.distance %}
-          <span class="shr-pill shr-pill--blue">{{ course.distance }}</span>
+          <span class="shr-course-card__dist">{{ course.distance }}</span>
         {% endif %}
       </div>
 
@@ -52,13 +52,13 @@ layout: archive
 
       <div class="shr-course-card__footer">
         {% if gpx_href != "" %}
-          <a class="shr-btn shr-btn--secondary shr-btn--sm" href="{{ gpx_href | relative_url }}" download>
+          <a class="shr-course-card__gpx" href="{{ gpx_href | relative_url }}" download>
             {% include icon.html name='download' %} GPX File
           </a>
         {% else %}
           <span></span>
         {% endif %}
-        <a class="shr-btn shr-btn--primary shr-btn--sm" href="{{ course.url | relative_url }}">View Route &rarr;</a>
+        <a class="shr-course-card__link" href="{{ course.url | relative_url }}">View Route &rarr;</a>
       </div>
     </article>
   {% endfor %}

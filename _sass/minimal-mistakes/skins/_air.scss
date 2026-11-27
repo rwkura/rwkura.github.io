@@ -3,24 +3,24 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: #f8fafc !default;
-$text-color: #1e293b !default;
-$muted-text-color: #64748b !default;
-$primary-color: #4DBFEA !default;
-$border-color: #e2e8f0 !default;
-$footer-background-color: #0f172a !default;
-$link-color: #0284c7 !default;
-$link-color-hover: #0369a1 !default;
-$link-color-visited: #0284c7 !default;
-$masthead-link-color: #334155 !default;
-$masthead-link-color-hover: #0f172a !default;
-$navicon-link-color-hover: #f1f5f9 !default;
+$background-color: #f7f6f2 !default;
+$text-color: #161719 !default;
+$muted-text-color: #686b70 !default;
+$primary-color: #4dbfea !default;
+$border-color: #ddd9d0 !default;
+$footer-background-color: #efece5 !default;
+$link-color: #0c749a !default;
+$link-color-hover: #085875 !default;
+$link-color-visited: #0c749a !default;
+$masthead-link-color: #3a3d42 !default;
+$masthead-link-color-hover: #161719 !default;
+$navicon-link-color-hover: #efece5 !default;
 
 .page__footer {
-  color: #cbd5e1 !important;
+  color: #3a3d42 !important;
 }
 
 .page__footer-follow .social-icons .svg-inline--fa,
 .page__footer .svg-icon {
-  color: #4DBFEA;
+  color: #0c749a;
 }

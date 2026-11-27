@@ -6,14 +6,14 @@
   </div>
 
   <div class="shr-footer__links">
-    <a class="shr-footer__pill" href="{{ '/assets/docs/SHR-Waiver.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+    <a class="shr-footer__link" href="{{ '/assets/docs/SHR-Waiver.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
       {% include icon.html name='download' %} Participant Waiver (PDF)
     </a>
     {% if site.footer.links %}
       <div class="shr-footer__socials">
         {% for link in site.footer.links %}
           {% if link.label and link.url %}
-            <a class="shr-footer__social" href="{{ link.url }}" rel="nofollow noopener noreferrer" target="_blank">{% include icon.html icon=link.icon %} <span>{{ link.label }}</span></a>
+            <a class="shr-footer__link" href="{{ link.url }}" rel="nofollow noopener noreferrer" target="_blank">{% include icon.html icon=link.icon %} <span>{{ link.label }}</span></a>
           {% endif %}
         {% endfor %}
       </div>

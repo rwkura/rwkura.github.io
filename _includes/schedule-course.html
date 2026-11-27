@@ -21,7 +21,7 @@
     {%- endfor -%}
   {%- endif -%}
   {%- if matched_dist != "" and raw_val contains "</a>" -%}
-    {%- capture dist_badge -%}<span class="shr-schedule__dist">{{ matched_dist }}</span></a>{%- endcapture -%}
+    {%- capture dist_badge -%}</a><span class="shr-schedule__dist">{{ matched_dist }}</span>{%- endcapture -%}
     {{ raw_val | replace_first: "</a>", dist_badge }}
   {%- else -%}
     {{ raw_val }}

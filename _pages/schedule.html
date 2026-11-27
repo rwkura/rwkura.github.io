@@ -16,7 +16,7 @@ layout: archive
 {% endif %}
 {% endfor %}
 
-<div class="shr-table-card">
+<div class="shr-table-wrap">
   <div class="shr-table-scroll">
     <table class="shr-schedule">
       <thead>
@@ -44,35 +44,34 @@ layout: archive
         {% assign short_val = row["Short Course"] | default: "" | strip %}
         {% assign long_val = row["Long Course"] | default: "" | strip %}
         {% assign extra_val = row["Extra Long Course"] | default: "" | strip %}
-        <tr{% if is_next %} class="is-next" {% endif %}>
-          <td>
+        <tr{% if is_next %} class="is-next"{% endif %}>
+          <td data-label="Date">
             <span class="shr-schedule__date">
               {{ row["Date"] }}
-              {% if is_next %}<span class="shr-pill shr-pill--blue">Next</span>{% endif %}
+              {% if is_next %}<span class="shr-next-tag">Next</span>{% endif %}
             </span>
           </td>
-          <td>{{ row["Time"] }}</td>
-          <td>
+          <td class="shr-schedule__time" data-label="Time">{{ row["Time"] }}</td>
+          <td data-label="Status">
             {% if is_running %}
-            <span class="shr-pill shr-pill--running"><span class="shr-dot shr-dot--green"></span> {{ row["Status"]
-              }}</span>
+            <span class="shr-status shr-status--running"><span class="shr-dot shr-dot--green" aria-hidden="true"></span> {{ row["Status"] }}</span>
             {% else %}
-            <span class="shr-pill shr-pill--off"><span class="shr-dot shr-dot--red"></span> {{ row["Status"] }}</span>
+            <span class="shr-status shr-status--off"><span class="shr-dot shr-dot--red" aria-hidden="true"></span> {{ row["Status"] }}</span>
             {% endif %}
           </td>
-          <td class="shr-schedule__course">
+          <td class="shr-schedule__course" data-label="Short">
             {% include schedule-course.html value=short_val %}
           </td>
-          <td class="shr-schedule__course">
+          <td class="shr-schedule__course" data-label="Long">
             {% include schedule-course.html value=long_val %}
           </td>
           {% if has_extra_long %}
-          <td class="shr-schedule__course shr-schedule__course--extra">
+          <td class="shr-schedule__course shr-schedule__course--extra" data-label="Extra Long">
             {% include schedule-course.html value=extra_val %}
           </td>
           {% endif %}
-          </tr>
-          {% endfor %}
+        </tr>
+        {% endfor %}
       </tbody>
     </table>
   </div>

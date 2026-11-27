@@ -20,17 +20,27 @@ layout: archive
           <h2 class="shr-pacer-card__name">{{ pacer.title }}</h2>
           {% assign pace_label = pacer.excerpt | strip %}
           {% if pace_label != "" %}
-            <span class="shr-pill shr-pill--blue">{{ pace_label }}</span>
+            <span class="shr-pacer-card__pace">{{ pace_label }}</span>
           {% endif %}
         </div>
-        {% assign clean_bio = pacer.content | strip_html | strip %}
-        {% if pace_label != "" %}
-          {% assign clean_bio = clean_bio | remove_first: pace_label | strip %}
+        {% assign bio_paragraphs = pacer.content | split: "</p>" %}
+        {% assign first_para = bio_paragraphs[0] | strip_html | strip %}
+        {% if pace_label != "" and first_para contains pace_label %}
+          {% assign remaining_bio = "" %}
+          {% for para in bio_paragraphs offset:1 %}
+            {% assign para_txt = para | strip_html | strip %}
+            {% if para_txt != "" %}
+              {% assign remaining_bio = remaining_bio | append: " " | append: para_txt %}
+            {% endif %}
+          {% endfor %}
+          {% assign clean_bio = remaining_bio | strip %}
+        {% else %}
+          {% assign clean_bio = pacer.content | strip_html | strip %}
         {% endif %}
         {% if clean_bio != "" %}
           <p class="shr-pacer-card__bio">{{ clean_bio }}</p>
+          <span class="shr-pacer-card__more">Read bio &rarr;</span>
         {% endif %}
-        <span class="shr-pacer-card__more">Read bio &rarr;</span>
       </div>
     </a>
   {% endfor %}
