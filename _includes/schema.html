@@ -1,16 +1,63 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  {% if site.social.type == "Organization" -%}
-    "@type": "Organization",
-    "url": {{ '/' | absolute_url | jsonify }}{% if site.og_image %},
-    "logo": {{ site_og_image | jsonify }}{% endif %}{% if site.social.links %},
-    "sameAs": {{ site.social.links | jsonify }}{% endif %}
-  {%- else -%}
-    "@type": "Person",
-    "name": {{ site.social.name | default: site.name | jsonify }},
-    "url": {{ '/' | absolute_url | jsonify }}{% if site.social.links %},
-    "sameAs": {{ site.social.links | jsonify }}{% endif %}
-  {%- endif %}
+  "@graph": [
+    {
+      "@type": "SportsClub",
+      "name": {{ site.social.name | default: site.name | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "sport": "Running",
+      "location": {
+        "@type": "Place",
+        "name": "Cockle Bay Wharf Bird Fountain, Darling Harbour",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sydney",
+          "addressRegion": "NSW",
+          "addressCountry": "AU"
+        }
+      }{% if site.logo %},
+      "logo": {{ site.logo | absolute_url | jsonify }}{% endif %}{% if site.social.links %},
+      "sameAs": {{ site.social.links | jsonify }}{% endif %}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What pace do I need for Sydney Harbour Runners?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our volunteer pace groups run from 4:30 to 6:15 min/km across the Short (6-8 km) and Long (11-13 km) courses, and we don't have slower or walk/jog groups. If you're newer to running, we recommend being comfortable running continuously at 6:15/km or faster for 6-8 km so you can stay with a paced group and enjoy the run."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When and where does Sydney Harbour Runners meet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tuesdays at 6:00pm at the Cockle Bay Wharf Bird Fountain in Darling Harbour, Sydney CBD. Runs leave promptly at 6:15pm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I join Sydney Harbour Runners?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Just rock up! There is no need to register and Sydney Harbour Runners is 100% free to join - pick a pace group (4:30 to 6:15/km) that matches your comfortable pace."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I ask questions about Sydney Harbour Runners?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Join the Sydney Harbour Runners Facebook group (https://www.facebook.com/groups/sydneyharbourrunners/) and make a post."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>

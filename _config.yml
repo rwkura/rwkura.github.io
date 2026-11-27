@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Sydney Harbour Runners"
 tagline                  : "Sydney CBD Tuesday Run Club"
-description              : "Sydney Harbour Runners is a community of runners who meet weekly in the Sydney CBD"
+description              : "Free Tuesday night run club in Sydney CBD (Darling Harbour). 6-8km short & 11-13km long routes with pacers from 4:30 to 6:15/km (recommended 6:15/km or faster)."
 url                      : "https://sydneyharbourrunners.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -100,8 +100,10 @@ og_image                 : # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : "Organization"
-  name                   : # If the user or organization name differs from the site's name
+  name                   : "Sydney Harbour Runners"
   links: # An array of links to social media profiles
+    - "https://www.facebook.com/groups/sydneyharbourrunners/"
+    - "https://www.instagram.com/shrunners/"
 
 # Analytics
 analytics:

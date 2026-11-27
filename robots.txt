@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Allow AI search crawlers so club pace requirements stay current
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+Sitemap: https://sydneyharbourrunners.org/sitemap.xml
