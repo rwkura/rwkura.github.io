@@ -3,8 +3,10 @@ title: "Strength & Pilates Physiotherapy"
 excerpt: ""
 order: 6
 header:
-  image: /assets/images/StrengthPilates.jpg
-  teaser: assets/images/StrengthPilates.jpg
+  image: /assets/images/StrengthPilates.webp
+  teaser: assets/images/StrengthPilates.webp
+  image_width: 640
+  image_height: 204
 ---
 
 Strength & Pilates Physiotherapy was founded on a simple but powerful belief: physiotherapy should actually fix the problem, not just manage it. Based in Surry Hills, the clinic combines clinical expertise with innovative treatment methods to deliver lasting recovery for athletes, active individuals, and anyone seeking to move better.

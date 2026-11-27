@@ -2,8 +2,10 @@
 title: "Paulina"
 excerpt: "Long Course - 5:00/km"
 header:
-  image: /assets/images/paulina.jpeg
-  teaser: assets/images/paulina.jpeg
+  image: /assets/images/paulina.webp
+  teaser: assets/images/paulina.webp
+  image_width: 600
+  image_height: 600
 ---
 
 Long Course - 5:00/km - Fast Five :)

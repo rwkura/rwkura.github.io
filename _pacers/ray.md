@@ -2,8 +2,10 @@
 title: "Ray"
 excerpt: "Short Course - 6:00/km"
 header:
-  image: /assets/images/ray.jpg
-  teaser: assets/images/ray.jpg
+  image: /assets/images/ray.webp
+  teaser: assets/images/ray.webp
+  image_width: 600
+  image_height: 797
 
 ---
 

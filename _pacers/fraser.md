@@ -2,8 +2,10 @@
 title: "Fraser"
 excerpt: "Long Course - 5:30/km"
 header:
-  image: /assets/images/fraser2.jpg
-  teaser: assets/images/fraser2.jpg
+  image: /assets/images/fraser2.webp
+  teaser: assets/images/fraser2.webp
+  image_width: 600
+  image_height: 882
 
 ---
 

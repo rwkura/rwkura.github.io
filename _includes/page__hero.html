@@ -46,7 +46,7 @@
     </div>
   {% else %}
   <br></br.>
-    <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
+    <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image"{% if page.header.image_width %} width="{{ page.header.image_width }}" height="{{ page.header.image_height }}"{% endif %} fetchpriority="high" decoding="async">
   {% endif %}
   {% if page.header.caption %}
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>

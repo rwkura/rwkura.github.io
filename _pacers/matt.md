@@ -2,8 +2,10 @@
 title: "Matt"
 excerpt: "Short Course - 6:00/km"
 header:
-  image: /assets/images/matt.jpg
-  teaser: assets/images/matt.jpg
+  image: /assets/images/matt.webp
+  teaser: assets/images/matt.webp
+  image_width: 533
+  image_height: 800
 
 ---
 

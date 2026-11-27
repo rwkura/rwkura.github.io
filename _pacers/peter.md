@@ -2,8 +2,10 @@
 title: "Peter"
 excerpt: "Long Course - 4:30/km"
 header:
-  image: /assets/images/peter.jpeg
-  teaser: assets/images/peter.jpeg
+  image: /assets/images/peter.webp
+  teaser: assets/images/peter.webp
+  image_width: 600
+  image_height: 961
 
 ---
 

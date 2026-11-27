@@ -7,6 +7,6 @@ header:
 distance: "13.6km"
 ---
 
-<div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3179241070536972902" data-full-width="true" data-style="standard" data-club-id="109154"></div><script src="https://strava-embeds.com/embed.js"></script>
+<div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3179241070536972902" data-full-width="true" data-style="standard" data-club-id="109154"></div>
 
 <a href="\assets\gpx_files\blackwattle-bay.gpx">GPX File</a>

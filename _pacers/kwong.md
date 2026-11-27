@@ -2,8 +2,10 @@
 title: "Kwong"
 excerpt: "Long Course - 5:30-6:30/km"
 header:
-  image: /assets/images/kwong.jpeg
-  teaser: assets/images/kwong.jpeg
+  image: /assets/images/kwong.webp
+  teaser: assets/images/kwong.webp
+  image_width: 600
+  image_height: 901
 ---
 
 Long Course - 5:30-6:30/km

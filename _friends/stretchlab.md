@@ -3,8 +3,10 @@ title: "StretchLab Darlinghurst"
 excerpt: ""
 order: 8
 header:
-  image: /assets/images/stretchlab.png
-  teaser: assets/images/stretchlab.png
+  image: /assets/images/stretchlab.webp
+  teaser: assets/images/stretchlab.webp
+  image_width: 640
+  image_height: 204
 ---
 
 StretchLab was founded on the belief that personalized stretching and mobility work is essential for optimal athletic performance and recovery. The brand brings professional-level flexibility training directly to athletes, combining expert-guided stretching with cutting-edge recovery techniques.

@@ -2,8 +2,10 @@
 title: "Nick"
 excerpt: ""
 header:
-  image: /assets/images/nick.jpeg
-  teaser: assets/images/nick.jpeg
+  image: /assets/images/nick.webp
+  teaser: assets/images/nick.webp
+  image_width: 552
+  image_height: 870
 
 ---
 

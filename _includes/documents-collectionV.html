@@ -10,6 +10,8 @@
 
 {%- for post in entries -%}
   {%- unless post.hidden -%}
-    {% include archive-singleV.html %}
+    {%- assign is_lazy = false -%}
+    {%- if forloop.index > 3 -%}{%- assign is_lazy = true -%}{%- endif -%}
+    {% include archive-singleV.html type=include.type lazy=is_lazy %}
   {%- endunless -%}
 {%- endfor -%}

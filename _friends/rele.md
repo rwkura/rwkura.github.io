@@ -3,8 +3,10 @@ title: "Rele Footwear"
 excerpt: ""
 order: 7
 header:
-  image: /assets/images/Rele.jpg
-  teaser: assets/images/Rele.jpg
+  image: /assets/images/Rele.webp
+  teaser: assets/images/Rele.webp
+  image_width: 640
+  image_height: 204
 ---
 
 RELE Footwear was founded with a mission to revolutionize foot health through innovative toe sock design. 

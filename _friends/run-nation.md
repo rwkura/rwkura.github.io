@@ -3,8 +3,10 @@ title: "Run Nation"
 excerpt: ""
 order: 9
 header:
-  image: /assets/images/run-nation2-tp.png
-  teaser: assets/images/run-nation2-tp.png
+  image: /assets/images/run-nation2-tp.webp
+  teaser: assets/images/run-nation2-tp.webp
+  image_width: 403
+  image_height: 225
 
 ---
 

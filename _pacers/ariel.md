@@ -2,8 +2,10 @@
 title: "Ariel"
 excerpt: ""
 header:
-  image: /assets/images/ariel.jpg
-  teaser: assets/images/ariel.jpg
+  image: /assets/images/ariel.webp
+  teaser: assets/images/ariel.webp
+  image_width: 600
+  image_height: 800
 
 ---
 

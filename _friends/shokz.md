@@ -3,8 +3,10 @@ title: "Shokz"
 excerpt: ""
 order: 1
 header:
-  image: /assets/images/shokz.png
-  teaser: assets/images/shokz.png
+  image: /assets/images/shokz.webp
+  teaser: assets/images/shokz.webp
+  image_width: 541
+  image_height: 320
 ---
 
 Shokz pioneered the open-ear headphone category with bone conduction technology that lets runners stay fully aware of traffic, cyclists and fellow runners while enjoying their music or podcasts. No earbuds blocking your ears means safer runs without sacrificing sound.

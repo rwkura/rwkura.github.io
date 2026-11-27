@@ -83,7 +83,7 @@ layout: archive
     <article class="friend-card">
       <a class="friend-card__logo" href="{{ friend.url | relative_url }}">
         {% if friend.header.teaser %}
-          <img src="{{ friend.header.teaser | relative_url }}" alt="{{ friend.title }}">
+          <img src="{{ friend.header.teaser | relative_url }}" alt="{{ friend.title }}"{% if friend.header.image_width %} width="{{ friend.header.image_width }}" height="{{ friend.header.image_height }}"{% endif %}{% if forloop.index > 2 %} loading="lazy"{% endif %} decoding="async">
         {% endif %}
       </a>
       <div class="friend-card__body">

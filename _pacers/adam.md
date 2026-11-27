@@ -2,8 +2,10 @@
 title: "Adam"
 excerpt: "Long Course - 5:00-5:30/km"
 header:
-  image: /assets/images/adam.jpg
-  teaser: assets/images/adam.jpg
+  image: /assets/images/adam.webp
+  teaser: assets/images/adam.webp
+  image_width: 366
+  image_height: 487
 ---
 
 Long Course - 5:00-5:30/km
