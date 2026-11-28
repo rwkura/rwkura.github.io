@@ -1,0 +1,6 @@
+{%- assign date_str = include.date | default: "" | strip -%}
+{%- assign day_abbr = date_str | date: "%a" -%}
+{%- if day_abbr != "" and day_abbr != date_str -%}
+  {%- unless date_str contains day_abbr -%}{{ day_abbr }} {% endunless -%}
+{%- endif -%}
+{{- date_str -}}

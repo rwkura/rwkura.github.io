@@ -41,13 +41,14 @@ layout: archive
         {% assign is_next = true %}
         {% assign found_next = true %}
         {% endif %}
+        {% assign date_val = row["Date"] | default: "" | strip %}
         {% assign short_val = row["Short Course"] | default: "" | strip %}
         {% assign long_val = row["Long Course"] | default: "" | strip %}
         {% assign extra_val = row["Extra Long Course"] | default: "" | strip %}
         <tr{% if is_next %} class="is-next"{% endif %}>
           <td data-label="Date">
             <span class="shr-schedule__date">
-              {{ row["Date"] }}
+              {% include schedule-date.html date=date_val %}
               {% if is_next %}<span class="shr-next-tag">Next</span>{% endif %}
             </span>
           </td>

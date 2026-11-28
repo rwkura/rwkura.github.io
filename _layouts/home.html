@@ -11,6 +11,8 @@ layout: archive
 {% assign long_course_url = long_course_raw | split:"href='" | last | split:"'" | first %}
 {% assign extra_long_url = extra_long_raw | split:"href='" | last | split:"'" | first %}
 {% assign nextRun = site.data.dates | find: "Status", "We are running!" %}
+{% assign next_date_raw = site.data.dates[0]["Date"] | default: "" | strip %}
+{% assign next_running_date_raw = nextRun["Date"] | default: "" | strip %}
 
 <div class="shr-home">
 
@@ -21,7 +23,7 @@ layout: archive
         <span class="shr-dot shr-dot--green" aria-hidden="true"></span>
         <span>Next Run</span>
       </div>
-      <h2 class="shr-next-run__title">{{ site.data.dates[0].Date }} at {{ site.data.dates[0].Time }}</h2>
+      <h2 class="shr-next-run__title">{% include schedule-date.html date=next_date_raw %} at {{ site.data.dates[0].Time }}</h2>
       {% assign next_run_time = site.data.dates[0].Time | downcase | strip %}
       <p class="shr-next-run__sub">Cockle Bay Wharf Bird Fountain, Darling Harbour{% if next_run_time == "6:00pm" %}
         &middot; Runs leave 6:15pm{% endif %}</p>
@@ -70,9 +72,9 @@ layout: archive
     <div class="shr-next-run__info">
       <div class="shr-status shr-status--off">
         <span class="shr-dot shr-dot--red" aria-hidden="true"></span>
-        <span>No Run {{ site.data.dates[0].Date }}</span>
+        <span>No Run {% include schedule-date.html date=next_date_raw %}</span>
       </div>
-      <h2 class="shr-next-run__title">Our next run is on {{ nextRun["Date"] }}</h2>
+      <h2 class="shr-next-run__title">Our next run is on {% include schedule-date.html date=next_running_date_raw %}</h2>
       <p class="shr-next-run__sub">Check our full schedule for upcoming Tuesday routes.</p>
     </div>
     <div class="shr-next-run__routes">
