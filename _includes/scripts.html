@@ -2,8 +2,6 @@
   {% for script in site.footer_scripts %}
     <script src="{{ script | relative_url }}" defer></script>
   {% endfor %}
-{% else %}
-  <script src="{{ '/assets/js/nav.js' | relative_url }}" defer></script>
 {% endif %}
 
 {% if content contains 'strava-embed-placeholder' %}

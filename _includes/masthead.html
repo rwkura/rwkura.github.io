@@ -1,4 +1,5 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
+{%- assign masthead_title = site.masthead_title | default: site.title | strip -%}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -7,33 +8,36 @@
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.title }}" width="258" height="132" decoding="async"></a>
         {% endunless %}
-        <a class="site-title" href="{{ '/' | relative_url }}">
-          {{ site.masthead_title | default: site.title }}
-          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
-        </a>
+        {% if masthead_title != "" or site.subtitle %}
+          <a class="site-title" href="{{ '/' | relative_url }}">
+            {{ masthead_title }}
+            {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+          </a>
+        {% endif %}
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
-            {%- assign is_fb = false -%}
-            {%- if link.title == "FB" -%}{%- assign is_fb = true -%}{%- endif -%}
+            {%- if link.title == "FB" -%}{%- continue -%}{%- endif -%}
             {%- assign is_active = false -%}
             {%- if link.url != "/" and page.url contains link.url -%}
               {%- assign is_active = true -%}
             {%- endif -%}
-            <li class="masthead__menu-item{% if is_active %} is-active{% endif %}{% if is_fb %} masthead__menu-item--cta{% endif %}">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}{% if is_fb %} target="_blank" rel="noopener noreferrer"{% endif %}{% if is_active %} aria-current="page"{% endif %}>{% if is_fb %}{% include icon.html name='facebook-square' %} {% endif %}{{ link.title }}</a>
+            <li class="masthead__menu-item{% if is_active %} is-active{% endif %}">
+              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}{% if is_active %} aria-current="page"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>
+        {%- for link in site.data.navigation.main -%}
+          {%- if link.title == "FB" -%}
+            <div class="masthead__cta">
+              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %} target="_blank" rel="noopener noreferrer">{% include icon.html name='facebook-square' %}<span>{{ link.title }}</span></a>
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
         </button>
         {% endif %}
-        <button class="greedy-nav__toggle hidden" type="button" aria-label="Toggle menu">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
