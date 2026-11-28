@@ -5,7 +5,7 @@
 {% endif %}
 
 {% if content contains 'strava-embed-placeholder' %}
-  <script src="{{ '/assets/js/strava-lazy.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/strava-lazy.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 {% endif %}
 
 {% if site.search == true or page.layout == "search" %}
